@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+.pic {
+    border-radius: 50%;
+    width: 175 px;
+    margin-bottom: 50px;
+}
+
+#welcome {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    display: table;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    text-align: center;
+}
+
+.inner {
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.menu {
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0 
+    z-index: 10;
+}
+
+.links {
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+}
